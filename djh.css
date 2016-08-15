@@ -1,0 +1,21 @@
+body {
+    background-color: #33a3b4;
+}
+
+#logo {
+	width: 80px;
+	height: auto;
+	border-style: solid;
+	border-color: #33a3b4;
+	margin: 10px;
+}
+
+#bannerlinks {
+	background-color: #000000;
+	color: #33a3b4;
+	text-align: center;
+}
+
+a {
+	color: #33a3b4;
+}
