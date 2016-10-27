@@ -1,0 +1,175 @@
+/* *********************************************
+General
+********************************************* */
+
+/* *********************************************
+Navigation Section
+********************************************* */
+
+/* Top Bar Settings */
+.top-bar {
+	background-color: #000000;
+}
+
+.menu-centered {
+	background-color: #000000;
+}
+
+a:link {
+	color:#33a3b4;
+	text-decoration:none;
+}
+a:visited {
+	color:#33a3b4;
+	text-decoration:none
+}
+a:hover {
+	color:#99d1d9;
+	text-decoration:underline
+}
+a:focus {
+	color:#99d1d9;
+	text-decoration:underline
+}
+a:active {
+	color:#eaf5f7;
+	text-decoration:underline
+}
+a #logo:link {
+	border-color:#33a3b4;
+}
+a #logo:visited {
+	border-color:#33a3b4;
+}
+a #logo:hover {
+	border-color:#99d1d9;
+}
+a #logo:focus {
+	border-color:#99d1d9;
+}
+a #logo:active {
+	border-color:#eaf5f7;
+}
+
+/* Tablet and Desktop Menu */
+.top-bar-left img {
+	height: 93px;
+	border-style: solid;
+	border-color: #33a3b4;
+	border-width: 3px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	margin-left: 50px;
+}
+.top-bar-right li {
+	height: 95px;
+	background-color: #000000;
+	font-family: courier;
+}
+ #horizontalmenu a {
+	font-weight: bold;
+	font-size: 1.5vw;
+ }
+
+/* Mobile Menu */
+.menu-centered img {
+	height: 93px;
+	border-style: solid;
+	border-color: #33a3b4;
+	border-width: 3px;
+	margin-top: 3px;
+	margin-bottom: 1px;
+}
+/* I think this is obsolete, but didn't want to remove it yet.
+.menu-centered #verticalmenu li {
+	height: 95px;
+	background-color: #000000;
+	font-family: courier;
+	font-weight: bold;
+	font-size: 1.5vw;
+	color: #33a3b4;
+}
+*/
+#verticalmenu a {
+	font-family: courier;
+	font-weight: bold;
+	font-size: 5vw;
+}
+
+/* *********************************************
+Hero Section
+********************************************* */
+
+/* Front Page ******************************* */
+
+/* Background Image Settings - Front Page */
+.hero-front {
+	background-image: url("djh-bg.jpg");
+    background-repeat: no-repeat;
+	background-size: contain; /* Use 'cover' for full width picture. Problem is cropping on full screen cuts off bottom. */
+	background-color: #d5d5d5;
+	background-position: center top;
+	height: 100%;
+	width: 100%;
+}
+
+/* Title Settings - Front Page*/
+.hero-front h1 {	
+	text-align: center;
+	font-family: courier;
+	font-weight: bold;
+	font-size: 7.5vw;
+	color: #33a3b4;	
+}
+
+/* About Page******************************** */
+
+/* Background Settings - About Page */
+.hero-about {
+	background-color: #d5d5d5;	
+}
+
+/* Text Settings - About Page */
+
+.hero-about h2 {
+	font-family: courier;
+	font-weight: bold;
+	color: #33a3b4;
+}
+
+/* Image Settings - About Page */
+.headshot {
+	border-style: solid;
+	border-color: #33a3b4;
+	border-width: 3px;
+	margin-top: 3px;
+	margin-bottom: 1px;
+}
+
+
+ 
+/* *********************************************
+Main Section
+********************************************* */
+
+/* *********************************************
+Footer
+********************************************* */
+
+/* *********************************************
+Media Query
+********************************************* */
+
+/* Tablet and Desktop Menu */
+@media screen and (max-width: 717px) {
+	#medlarge {
+		display: none;
+	}
+}
+
+/* Mobile Menu */
+@media screen and (min-width: 718px) {
+	#small {
+		display: none;
+	}
+}
