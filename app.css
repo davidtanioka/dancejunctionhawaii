@@ -2,6 +2,11 @@
 General
 ********************************************* */
 
+body {
+	background-color: #d5d5d5;
+	height: 100vh;
+}
+
 /* *********************************************
 Navigation Section
 ********************************************* */
@@ -102,15 +107,22 @@ Hero Section
 
 /* Front Page ******************************* */
 
-/* Background Image Settings - Front Page */
-.hero-front {
+/* Background Image Settings - Front Page
+.hero-frontpic {
 	background-image: url("djh-bg.jpg");
     background-repeat: no-repeat;
-	background-size: contain; /* Use 'cover' for full width picture. Problem is cropping on full screen cuts off bottom. */
+	background-size: contain; /* Use 'cover' for full width picture. Problem is cropping on full screen cuts off bottom. 
 	background-color: #d5d5d5;
 	background-position: center top;
 	height: 100%;
+	width: auto;
+}
+*/
+
+#heropic {
+	height: 100%;
 	width: 100%;
+	background-color: #d5d5d;
 }
 
 /* Title Settings - Front Page*/
@@ -119,22 +131,77 @@ Hero Section
 	font-family: courier;
 	font-weight: bold;
 	font-size: 7.5vw;
-	color: #33a3b4;	
+	color: #33a3b4;
+	background-color: #d5d5d5;
+	margin-bottom: 0px;
 }
+
+/* About Page ******************************* */
+
+/* Title Settings - About Page*/
+.hero-about {	
+	background-color: #d5d5d5;
+}
+
+.hero-about h1{	
+	text-align: center;
+	font-family: courier;
+	font-weight: bold;
+	font-size: 5vw;
+	color: #33a3b4;
+	margin-bottom: 0px;
+}
+
+/* Contact Page ******************************* */
+
+/* Title Settings - Contact Page*/
+.hero-contact {	
+	background-color: #d5d5d5;
+}
+
+.hero-contact h1{	
+	text-align: center;
+	font-family: courier;
+	font-weight: bold;
+	font-size: 5vw;
+	color: #33a3b4;
+	margin-bottom: 0px;
+}
+
+
+/* *********************************************
+Main Section
+********************************************* */
 
 /* About Page******************************** */
 
-/* Background Settings - About Page */
-.hero-about {
-	background-color: #d5d5d5;	
+/* Background & Layout Settings - About Page */
+.main-about {
+	background-color: #d5d5d5;
+}
+
+.main-about p {
+	border-style: solid;
+	border-color: #33a3b4;
+	border-width: 3px;	
+	padding: 3px;
+}
+
+#marisa-bio {
+	margin-top: 40px;
 }
 
 /* Text Settings - About Page */
-
-.hero-about h2 {
+.main-about h2 {
 	font-family: courier;
 	font-weight: bold;
-	color: #33a3b4;
+	color: #000000;
+}
+
+.main-about h3 {
+	font-family: courier;
+	font-weight: bold;
+	color: #000000;
 }
 
 /* Image Settings - About Page */
@@ -146,11 +213,34 @@ Hero Section
 	margin-bottom: 1px;
 }
 
+/* Contact Page******************************** */
 
- 
-/* *********************************************
-Main Section
-********************************************* */
+/* Background & Layout Settings - Contact Page */
+.main-contact {
+	background-color: #d5d5d5;
+}
+
+/* Text Settings - Contact Page */
+.main-contact h2 {
+	font-family: courier;
+	font-weight: bold;
+	color: #000000;
+	border-style: solid;
+	border-color: #33a3b4;
+	border-width: 3px;	
+	padding: 3px;
+}
+
+.main-contact h4 {
+	font-family: courier;
+	font-weight: bold;
+	color: #000000;
+	border-style: solid;
+	border-color: #33a3b4;
+	border-width: 3px;	
+	padding: 3px;
+}
+
 
 /* *********************************************
 Footer
@@ -173,3 +263,13 @@ Media Query
 		display: none;
 	}
 }
+
+/* Contact email sizing */
+@media screen and (max-width: 350px) {
+	#tiny {
+		font-size: .8em;
+	}
+}
+
+
+
