@@ -40,19 +40,19 @@ a:active {
 	color:#eaf5f7;
 	text-decoration:underline
 }
-a #logo:link {
+a .djh-logo:link {
 	border-color:#33a3b4;
 }
-a #logo:visited {
+a .djh-logo:visited {
 	border-color:#33a3b4;
 }
-a #logo:hover {
+a .djh-logo:hover {
 	border-color:#99d1d9;
 }
-a #logo:focus {
+a .djh-logo:focus {
 	border-color:#99d1d9;
 }
-a #logo:active {
+a .djh-logo:active {
 	border-color:#eaf5f7;
 }
 
@@ -168,6 +168,20 @@ Hero Section
 	margin-bottom: 0px;
 }
 
+/* The Company Page ******************************* */
+
+.hero-company {	
+	background-color: #d5d5d5;
+}
+
+.hero-company h1{	
+	text-align: center;
+	font-family: courier;
+	font-weight: bold;
+	font-size: 5vw;
+	color: #33a3b4;
+	margin-bottom: 0px;
+}
 
 /* *********************************************
 Main Section
@@ -229,6 +243,7 @@ Main Section
 	border-color: #33a3b4;
 	border-width: 3px;	
 	padding: 3px;
+	text-align: center;
 }
 
 .main-contact h4 {
@@ -239,7 +254,16 @@ Main Section
 	border-color: #33a3b4;
 	border-width: 3px;	
 	padding: 3px;
+	text-align: center;
 }
+
+/* The Company Page ******************************* */
+
+.orbit-image {
+	width: 100%;
+	height: auto;
+}
+
 
 
 /* *********************************************
@@ -252,21 +276,21 @@ Media Query
 
 /* Tablet and Desktop Menu */
 @media screen and (max-width: 717px) {
-	#medlarge {
+	.medlarge {
 		display: none;
 	}
 }
 
 /* Mobile Menu */
 @media screen and (min-width: 718px) {
-	#small {
+	.small {
 		display: none;
 	}
 }
 
 /* Contact email sizing */
 @media screen and (max-width: 350px) {
-	#tiny {
+	.tiny {
 		font-size: .8em;
 	}
 }
