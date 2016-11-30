@@ -259,12 +259,15 @@ Main Section
 
 /* The Company Page ******************************* */
 
-.orbit-image {
-	width: 100%;
-	height: auto;
+.thumbnail {
+	max-height: 8rem;
+	border-color: #33a3b4;
+	margin: 8px;
 }
 
-
+.gallery {
+	text-align: center;
+}
 
 /* *********************************************
 Footer
